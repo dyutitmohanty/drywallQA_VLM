@@ -25,7 +25,10 @@ To run the training, evaluation, or inference scripts, you need the correspondin
 
 ### Dataset
 
-Download the **Wall Features dataset** from the provided Google Drive link.
+Download the **Wall Features dataset** from Google Drive:
+
+**Download Link:**  
+https://drive.google.com/file/d/1lUabEpolQx5fWdlEuAoxvZ2oA6MMddaJ/view?usp=sharing
 
 Extract the contents into a `datasets/` directory at the root of your project.  
 The scripts expect the following path:
@@ -52,9 +55,12 @@ project_root/
 
 ### Model Weights
 
-Download the **pre-trained model weights**.
+Download the **pre-trained model weights** from Google Drive:
 
-Extract them into a `checkpoints/` directory at the root of your project.
+**Download Link:**  
+https://drive.google.com/file/d/18Y45PgPLFHTfTd0MP4NCnRjvMi6vKBjD/view?usp=sharing
+
+Extract the downloaded file into a `checkpoints/` directory at the root of your project.
 
 ```
 checkpoints/
