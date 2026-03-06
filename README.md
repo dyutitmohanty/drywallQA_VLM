@@ -6,7 +6,7 @@ This repository provides a complete pipeline for fine-tuning the CLIPSeg model t
 
 * **Custom Loss Function:** Combines Focal and Dice loss to effectively handle class imbalances and improve segmentation accuracy on fine features like narrow cracks.
 * **Differential Learning Rates:** Preserves the generalized knowledge of the pre-trained CLIP backbone by using a lower learning rate (1e-6), while more aggressively training the decoder (1e-4) for this specific segmentation task.
-
+* **Reproducibility:** A global random seed (`42`) is set across all scripts (Python, NumPy, PyTorch, and CUDA deterministic backends) to ensure fully repeatable training and inference results.
 ---
 
 ## Installation & Setup
