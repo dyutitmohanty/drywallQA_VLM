@@ -1,0 +1,13 @@
+# Core Machine Learning & Data Science
+torch
+numpy
+matplotlib
+tqdm
+
+# Computer Vision & Image Processing
+opencv-python
+albumentations
+Pillow
+
+# Hugging Face Transformers (for CLIPSeg)
+transformers
