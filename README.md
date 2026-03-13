@@ -2,6 +2,8 @@
 
 This repository provides a complete pipeline for fine-tuning the CLIPSeg model to detect and segment specific wall features, such as cracks and drywall tape joints, using text-based prompts.
 
+![Demo Inference](demo_inference.png)
+
 ## Key Features
 
 * **Custom Loss Function:** Combines Focal and Dice loss to effectively handle class imbalances and improve segmentation accuracy on fine features like narrow cracks.
